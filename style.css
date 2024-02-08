@@ -1,0 +1,121 @@
+*{
+    background-color:rgb(247, 251, 255);
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    color: rgb(42, 42, 42);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(76, 76, 254);
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+section{
+    width: 36vw;
+
+    margin: 25px auto;
+
+    border: 0.8px solid rgb(201 201 201);
+    border-radius: 12px;
+}
+
+img{
+    display: block;
+    width: 20%;
+    margin: 5px auto;
+    padding: 12px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.8rem;
+}
+
+p{
+    text-align: center;
+}
+
+#formMiddle{
+    margin: 55px 0;
+}
+
+input[type=email], input[type=password]{
+    display: block;
+    width: 78%;
+    height: 47px;
+    padding: 8px;
+    margin: 12px auto;
+    border-radius: 3px;
+    border: 0.8px solid rgb(201 201 201);
+}
+
+input[type=email]:focus , input[type=password]:focus{
+    outline: 1.5px solid rgb(58, 58, 254);
+    border-radius: 3px;
+    border: none;
+}
+
+
+#formMiddle a{
+    display: block;
+    width: 78%;
+    margin: auto;
+}
+
+#errorMessage{
+    width: 78%;
+    margin: auto;
+    color: red;
+    font-size: 0.8rem;
+}
+
+#formBottom{
+    margin: 0 11%;
+    margin-top: 105px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#formBottom a{
+    height: 33px;
+}
+
+#signInButton{
+    width: 90px;
+    height: 36px;
+    color: white;
+    border: none;
+    background-color: rgb(76, 76, 254);
+    border-radius: 7px;
+}
+
+#signInButton:hover{
+    cursor: pointer;
+    background-color: rgb(58, 58, 254);
+}
+
+footer{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 36vw;
+    text-align: center;
+}
+
+@media only screen and (max-width: 770px){
+
+    section{
+        width: 100vw;
+        border: none;
+    }
+
+}
